@@ -1,3 +1,8 @@
+:root {
+  --bg-color-card-sobre: #e1d8d5;
+  --color-card-sobre: #5c5e2a;
+}
+
 * {
   margin: 0;
   padding: 0;

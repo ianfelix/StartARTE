@@ -3,7 +3,8 @@
   border-radius: 5px;
   margin: 3rem auto;
   grid-template-columns: 1fr;
-  background-color: aqua;
+  background-color: var(--bg-color-card-sobre);
+  color: var(--color-card-sobre);
   padding: 50px;
   text-align: center;
 }
