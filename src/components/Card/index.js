@@ -1,7 +1,7 @@
 import React from 'react';
 import ImgCard from './ImgCard';
-import imgNorte from '../../assets/images/img-norte.jpg';
-import ImgNordeste from '../../assets/images/img-nordeste.jpg';
+import imgNorte from '../../assets/images/img-norte-removebg-preview.png';
+import ImgNordeste from '../../assets/images/img-nordeste-removebg-preview.png';
 import './styles.css';
 import CardBody from './CardBody';
 import { NavLink } from 'react-router-dom';
