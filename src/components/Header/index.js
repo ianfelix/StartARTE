@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 import './styles.css';
 
 const Header = () => {
@@ -15,8 +16,8 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className='logo' to='/' end>
-            Logo
+          <NavLink to='/' end>
+            <img src={logo} className='logo' alt='Logo da página' />
           </NavLink>
         </li>
         <li className='nordeste-nav-link'>
