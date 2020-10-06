@@ -10,7 +10,7 @@
 
 .card-content {
   margin-bottom: 3rem;
-  background-color: var(--bg-color-card-sobre);
+  /* background-color: var(--bg-color-card-sobre); */
   border-radius: 5px;
   color: var(--color-card-sobre);
   padding: 15px;
