@@ -1,23 +1,19 @@
 import React from 'react';
 import Header from './components/Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
+import Footer from './components/Footer';
 import './App.css';
-import Main from './pages/Main';
-import Norte from './pages/Norte';
-import Nordeste from './pages/Nordeste';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className='App'>
+    <div className='App'>
+      <BrowserRouter>
         <Header />
-        <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/norte' element={<Norte />} />
-          <Route path='/nordeste' element={<Nordeste />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+        <Routes />
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 };
 

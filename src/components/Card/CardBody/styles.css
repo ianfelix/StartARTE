@@ -1,9 +1,14 @@
 .text-card {
   width: 300px;
-  text-align: left;
 }
 
 .title-card {
   font-size: 20px;
   margin: 10px 0;
+}
+
+@media (max-width: 775px) {
+  .text-card {
+    width: auto;
+  }
 }

@@ -1,14 +1,36 @@
+header {
+  padding: 20px;
+  border-top: 3.5px solid #dbc2a5;
+  border-bottom: 1px solid #e4dad1;
+}
+
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
-  background-color: #dbc2a5;
-  padding: 30px;
   align-items: center;
+}
+
+.norte-nav-link {
+  color: #88a261;
+}
+
+.nordeste-nav-link {
+  color: #ef8a01;
+}
+
+.norte-nav-link,
+.nordeste-nav-link {
+  font-size: 1.2rem;
+}
+
+header ul li a {
+  padding: 25px;
 }
 
 .logo {
   font-size: 2rem;
+  color: #972138;
 }
 
 a {
@@ -17,5 +39,5 @@ a {
 }
 
 .activeLink {
-  color: orange;
+  border-top: 4px solid #ce132c;
 }

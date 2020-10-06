@@ -6,19 +6,27 @@ const Header = () => {
   return (
     <header>
       <ul className='header'>
-        <li>
-          <NavLink to='/norte' activeClassName='activeLink'>
+        <li className='norte-nav-link'>
+          <NavLink
+            className='norte-nav-link'
+            to='/norte'
+            activeClassName='activeLink'>
             Norte
           </NavLink>
         </li>
-        <li className='logo'>
-          <NavLink to='/' end>
+        <li>
+          <NavLink className='logo' to='/' end>
             Logo
           </NavLink>
         </li>
-        <NavLink to='/nordeste' activeClassName='activeLink'>
-          Norte
-        </NavLink>
+        <li className='nordeste-nav-link'>
+          <NavLink
+            className='nordeste-nav-link'
+            to='/nordeste'
+            activeClassName='activeLink'>
+            Nordeste
+          </NavLink>
+        </li>
       </ul>
     </header>
   );
