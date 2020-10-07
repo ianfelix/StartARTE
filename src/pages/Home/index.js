@@ -23,7 +23,8 @@ const Home = () => {
           </NavLink>
           <CardBody
             titleCard='Cultura Norte'
-            title=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis repellendus neque animi maiores optio voluptatibus laboriosam at adipisci suscipit architecto ea illum facere fugit ratione veritatis dolorum, molestias totam.'
+            title='O artesanato no Norte é bem diversificado e os trabalhos são produzidos com fibras, coquinhos, cerâmica, pedra-sabão, barro, couro, madeira, látex, entre outros. São feitos bichos, colares, pulseiras, brincos, cestarias, potes, etc.
+            O artesanato indígena é utilizado como enfeites, para compor a indumentária usada nos rituais e também para a produção de utensílios domésticos e na comercialização.Ao clicar aqui você poderá conhecer um pouco mais sobre o universo dos artesãos do norte do país, e suas obras de arte.'
           />
         </div>
         <div className='card-content'>
@@ -32,7 +33,9 @@ const Home = () => {
           </NavLink>
           <CardBody
             titleCard='Cultura Nordeste'
-            title=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis repellendus neque animi maiores optio voluptatibus laboriosam at adipisci suscipit architecto ea illum facere fugit ratione veritatis dolorum, molestias totam.'
+            title='O artesanato da região Nordeste é bastante diversificado, uma vez que foi influenciado por indígenas, africanos e europeus, destacam-se as redes tecidas, rendas, crivo, produtos de couro, cerâmica, madeira, argila, as garrafas com imagens produzidas de areia colorida, os objetos feitos a partir da fibra do buriti, entre outros.
+            Ao clicar aqui você poderá conhecer um pouco mais sobre o universo  dos artesãos nordestinos, e suas obras de arte.
+            '
           />
         </div>
       </Card>
