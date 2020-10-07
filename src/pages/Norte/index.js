@@ -1,7 +1,7 @@
 import React from 'react';
 import ImgCard from '../../components/Card/ImgCard';
 import imageNorte from '../../assets/images/cangaceiros.jpg';
-import artesã from '../../assets/images/artesã.jpg';
+import artesã from '../../assets/images/.jpg';
 import arteIndigena from '../../assets/images/indigena.png';
 import mestre from '../../assets/images/mestre.png';
 import './styles.css';
