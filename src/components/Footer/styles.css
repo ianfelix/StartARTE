@@ -10,17 +10,24 @@ footer {
 
 .content-flex {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
 .img-logo {
   margin-left: 4rem;
+  width: 300px;
 }
 
 .social-media {
   text-align: right;
   margin-right: 4rem;
   list-style: none;
+}
+
+@media (max-width: 530px) {
+  .img-logo {
+    width: 40%;
+    justify-content: right;
+  }
 }

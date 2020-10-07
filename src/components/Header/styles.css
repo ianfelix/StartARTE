@@ -4,7 +4,7 @@ header {
   border-bottom: 1px solid #e4dad1;
 }
 
-.header {
+.header-flex {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -30,7 +30,7 @@ header ul li a {
 
 .logo {
   font-size: 1rem;
-  width: 245px;
+  width: 250px;
 }
 
 a {
@@ -40,4 +40,26 @@ a {
 
 .activeLink {
   border-top: 4px solid #ce132c;
+}
+
+@media (max-width: 502px) {
+  .header-flex {
+    flex-direction: column;
+  }
+  .logo-item {
+    order: -1;
+  }
+
+  header ul li {
+    margin-top: 1rem;
+    border: none;
+  }
+  header ul li a {
+    padding: 1px;
+  }
+
+  .activeLink {
+    border: none;
+    border-bottom: 2px solid red;
+  }
 }
