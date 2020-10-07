@@ -6,7 +6,6 @@ import imgCardMidle from '../../assets/images/rendeira3.jpg';
 import CardBody from '../../components/Card/CardBody';
 
 import './styles.css';
-// import Card from '../../components/Card';
 
 const Nordeste = () => {
   return (
