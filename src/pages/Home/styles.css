@@ -1,0 +1,25 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-content {
+  margin-bottom: 3rem;
+  /* background-color: var(--bg-color-card-sobre); */
+  border-radius: 5px;
+  color: var(--color-card-sobre);
+  padding: 15px;
+}
+
+@media (max-width: 775px) {
+  .flex-card {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+}
