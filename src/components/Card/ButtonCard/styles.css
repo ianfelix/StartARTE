@@ -1,0 +1,12 @@
+.btn-card {
+  border: none;
+  background-color: #e1d8d5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-card:hover {
+  border-color: #e4dad1;
+}

@@ -2,13 +2,13 @@ import React from 'react';
 
 import './styles.css';
 
-const CardBody = ({ titleCard, title }) => {
+const BodyCard = ({ titleCard, textCard }) => {
   return (
     <>
       <p className='title-card'>{titleCard}</p>
-      <p className='text-card'>{title}</p>
+      <p className='text-card'>{textCard}</p>
     </>
   );
 };
 
-export default CardBody;
+export default BodyCard;

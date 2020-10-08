@@ -1,18 +1,17 @@
 .content {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .flex-card {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  color: var(--color-card-sobre);
 }
 
 .card-content {
   margin-bottom: 3rem;
-  /* background-color: var(--bg-color-card-sobre); */
   border-radius: 5px;
-  color: var(--color-card-sobre);
   padding: 15px;
 }
 
@@ -21,5 +20,10 @@
     display: block;
     text-align: center;
     justify-content: center;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

@@ -2,10 +2,10 @@ import React from 'react';
 
 import './styles.css';
 
-const ImgCard = ({ img, title }) => {
+const ImgCard = ({ img, titleImg }) => {
   return (
     <>
-      <img className='img-card' src={img} alt={title} />
+      <img className='img-card' src={img} alt={titleImg} />
     </>
   );
 };

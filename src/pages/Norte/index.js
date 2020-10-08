@@ -1,28 +1,36 @@
 import React from 'react';
-import ImgCard from '../../components/Card/ImgCard';
 import decoracao from '../../assets/images/decoracao.jpg';
 import arteIndigena from '../../assets/images/indigena.png';
 import mestre from '../../assets/images/mestre.jpg';
+import Card from '../../components/Card';
+import Head from '../../components/Head';
 import './styles.css';
-import CardBody from '../../components/Card/CardBody';
 
 const Norte = () => {
   return (
     <div className='margin-body animeDown'>
-      <div className='container-flex-norte'>
-        <div>
-          <ImgCard img={arteIndigena} />
-          <CardBody titleCard='Arte indígena' />
-        </div>
-        <div>
-          <ImgCard img={mestre} />
-          <CardBody titleCard='Mestres' />
-        </div>
-        <div>
-          <ImgCard img={decoracao} />
-          <CardBody titleCard='Decoração' />
-        </div>
-      </div>
+      <Head title='Norte' description='Essa é a página da região Norte' />
+      <Card
+        img={arteIndigena}
+        titleImg='Arte'
+        titleCard='Arte Sertaneja'
+        textCard=''
+        textButton='Saiba mais'
+      />
+      <Card
+        img={mestre}
+        titleImg='Arte'
+        titleCard='Mestres'
+        textCard=''
+        textButton='Saiba mais'
+      />
+      <Card
+        img={decoracao}
+        titleImg='Decoração'
+        titleCard='Decoração'
+        textCard=''
+        textButton='Saiba mais'
+      />
     </div>
   );
 };
