@@ -1,36 +1,41 @@
 import React from 'react';
-import ImgCard from '../../components/Card/ImgCard';
-import imgCardLeft from '../../assets/images/sertanejo.jpg';
-import imgCardRight from '../../assets/images/artesa.jpg';
-import imgCardMidle from '../../assets/images/rendeira3.jpg';
-import CardBody from '../../components/Card/CardBody';
-
+import Card from '../../components/Card';
+import arteSertaneja from '../../assets/images/sertanejo.jpg';
+import mestre from '../../assets/images/artesa.jpg';
+import decoracao from '../../assets/images/rendeira3.jpg';
+import Head from '../../components/Head';
 import './styles.css';
 
 const Nordeste = () => {
   return (
     <div className='margin-body animeDown'>
-      <div className='container-flex-nordeste'>
-        <div>
-          <ImgCard img={imgCardLeft} />
-          <CardBody
-            title='ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad omnis placeat similique iusto officia doloremque vitae iste nesciunt tenetur sunt facilis voluptatum inventore impedit dolor magni culpa. Sit, optio.'
+      <Head title='Nordeste' description='Essa é a página da região Nordeste' />
+      <div className='content card-content content-grid-pages'>
+        <div className='flex-card'>
+          <Card
+            img={arteSertaneja}
+            titleImg='Arte'
             titleCard='Arte Sertaneja'
+            textCard=''
+            textButton='Saiba mais'
           />
         </div>
-
-        <div>
-          <ImgCard img={imgCardMidle} />
-          <CardBody
-            title='ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad omnis placeat similique iusto officia doloremque vitae iste nesciunt tenetur sunt facilis voluptatum inventore impedit dolor magni culpa. Sit, optio.'
+        <div className='flex-card'>
+          <Card
+            img={mestre}
+            titleImg='Arte'
             titleCard='Mestres'
+            textCard=''
+            textButton='Saiba mais'
           />
         </div>
-        <div>
-          <ImgCard img={imgCardRight} />
-          <CardBody
-            title='ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ad omnis placeat similique iusto officia doloremque vitae iste nesciunt tenetur sunt facilis voluptatum inventore impedit dolor magni culpa. Sit, optio.'
+        <div className='flex-card'>
+          <Card
+            img={decoracao}
+            titleImg='Decoração'
             titleCard='Decoração'
+            textCard=''
+            textButton='Saiba mais'
           />
         </div>
       </div>

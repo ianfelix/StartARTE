@@ -52,3 +52,38 @@ img {
     transform: initial;
   }
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-grid-pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: center;
+  color: var(--color-card-sobre);
+}
+
+.card-content {
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+@media (max-width: 880px) {
+  .flex-card {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
