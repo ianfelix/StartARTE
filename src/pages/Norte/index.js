@@ -8,7 +8,7 @@ import './styles.css';
 
 const Norte = () => {
   return (
-    <div className='margin-body animeDown'>
+    <section className='margin-body animeDown'>
       <Head title='Norte' description='Essa é a página da região Norte' />
       <div className='content card-content content-grid-pages'>
         <div className='flex-card'>
@@ -42,7 +42,7 @@ const Norte = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

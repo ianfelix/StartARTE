@@ -8,7 +8,7 @@ import './styles.css';
 
 const Home = () => {
   return (
-    <div className='margin-body animeDown'>
+    <section className='margin-body animeDown'>
       <Head title='Home' description='Essa é a página Home' />
       <Sobre />
       <div className='content card-content'>
@@ -33,7 +33,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
