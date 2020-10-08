@@ -18,6 +18,7 @@ const Norte = () => {
             titleCard='Arte Indígena'
             textCard=''
             textButton='Saiba mais'
+            to='artes'
           />
         </div>
         <div className='flex-card'>
@@ -27,6 +28,7 @@ const Norte = () => {
             titleCard='Mestres'
             textCard=''
             textButton='Saiba mais'
+            to='mestres'
           />
         </div>
         <div className='flex-card'>
