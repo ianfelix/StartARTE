@@ -9,7 +9,7 @@
   margin: 10px 0;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 880px) {
   .text-card {
     width: auto;
     text-align: center;

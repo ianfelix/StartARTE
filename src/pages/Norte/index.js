@@ -10,27 +10,35 @@ const Norte = () => {
   return (
     <div className='margin-body animeDown'>
       <Head title='Norte' description='Essa é a página da região Norte' />
-      <Card
-        img={arteIndigena}
-        titleImg='Arte'
-        titleCard='Arte Sertaneja'
-        textCard=''
-        textButton='Saiba mais'
-      />
-      <Card
-        img={mestre}
-        titleImg='Arte'
-        titleCard='Mestres'
-        textCard=''
-        textButton='Saiba mais'
-      />
-      <Card
-        img={decoracao}
-        titleImg='Decoração'
-        titleCard='Decoração'
-        textCard=''
-        textButton='Saiba mais'
-      />
+      <div className='content card-content content-grid-pages'>
+        <div className='flex-card'>
+          <Card
+            img={arteIndigena}
+            titleImg='Arte'
+            titleCard='Arte Indígena'
+            textCard=''
+            textButton='Saiba mais'
+          />
+        </div>
+        <div className='flex-card'>
+          <Card
+            img={mestre}
+            titleImg='Arte'
+            titleCard='Mestres'
+            textCard=''
+            textButton='Saiba mais'
+          />
+        </div>
+        <div className='flex-card'>
+          <Card
+            img={decoracao}
+            titleImg='Decoração'
+            titleCard='Decoração'
+            textCard=''
+            textButton='Saiba mais'
+          />
+        </div>
+      </div>
     </div>
   );
 };
