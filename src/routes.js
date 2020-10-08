@@ -6,6 +6,7 @@ import Nordeste from './pages/Nordeste';
 import Mestres from './pages/Mestres';
 import NotFound from './pages/NotFound';
 import Artes from './pages/Artes';
+import Decoracao from './pages/Decoracao';
 
 const MainRoutes = () => {
   return (
@@ -14,9 +15,11 @@ const MainRoutes = () => {
       <Route path='norte/*' element={<Norte />} />
       <Route path='norte/artes' element={<Artes />} />
       <Route path='norte/mestres' element={<Mestres />} />
-      <Route path='nordeste' element={<Nordeste />} />
+      <Route path='norte/decoracao' element={<Decoracao />} />
+      <Route path='nordeste/*' element={<Nordeste />} />
       <Route path='nordeste/artes' element={<Artes />} />
       <Route path='nordeste/mestres' element={<Mestres />} />
+      <Route path='nordeste/decoracao' element={<Decoracao />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   );

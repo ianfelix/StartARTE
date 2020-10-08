@@ -38,6 +38,7 @@ const Nordeste = () => {
             titleCard='Decoração'
             textCard=''
             textButton='Saiba mais'
+            to='decoracao'
           />
         </div>
       </div>

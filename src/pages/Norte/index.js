@@ -38,6 +38,7 @@ const Norte = () => {
             titleCard='Decoração'
             textCard=''
             textButton='Saiba mais'
+            to='decoracao'
           />
         </div>
       </div>
