@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from '../../components/Card';
 import Head from '../../components/Head';
-import arteIndigena from '../../assets/images/indigena.png';
 import arteIndigena1 from '../../assets/images/arteIndigena1.jpg';
 import arteIndigena2 from '../../assets/images/arteIndigena2.jpg';
 import arteIndigena3 from '../../assets/images/arteIndigena3.jpg';
-// impirt arteSertaneja1 from '../../assets/images/'
+import arteSertaneja1 from '../../assets/images/arteSertaneja1.jpg';
+import arteSertaneja2 from '../../assets/images/arteSertaneja2.jpg';
+import arteSertaneja3 from '../../assets/images/arteSertaneja3.jpg';
+
 import './styles.css';
 
 const Artes = () => {
@@ -57,26 +59,26 @@ const Artes = () => {
         <div className='content card-content content-grid-pages'>
           <div className='flex-card'>
             <Card
-              img={arteIndigena}
-              titleImg='Mestre'
-              titleCard='Zezinho de Tracunhaém'
-              textCard='Fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil'
+              img={arteSertaneja1}
+              titleImg='Cordel'
+              titleCard='Cordel'
+              textCard='A Literatura de Cordel é uma expressão literária, tradicionalmente ligada ao nordeste e à cultura popular brasileira. Os seus locais de origem e destaque são os estados de Pernambuco, Alagoas, Paraíba, Pará, Rio Grande do Norte e Ceará. Contudo, hoje tem se tornado presente em muitas feiras culturais do Sudeste.'
             />
           </div>
           <div className='flex-card'>
             <Card
-              img={arteIndigena}
-              titleImg='Mestre'
-              titleCard='Zezinho de Tracunhaém'
-              textCard='Fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil'
+              img={arteSertaneja3}
+              titleImg='arte do barro'
+              titleCard='Arte do barro'
+              textCard='Mestre Vitalino deu vida ao barro em violeiros, bois, vacas, cangaceiros, ciranda, zabumba, cavalo-marinho, noivos, cavalos, Lampião e Maria Bonita, vaquejada, entre outros. Sua produção artística passou a ser iconográfica, influenciando a formação de novas gerações de artistas, principalmente no Alto do Moura em Caruaru.'
             />
           </div>
           <div className='flex-card'>
             <Card
-              img={arteIndigena}
-              titleImg='Mestre'
-              titleCard='Zezinho de Tracunhaém'
-              textCard='Fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil'
+              img={arteSertaneja2}
+              titleImg='Xilogravura'
+              titleCard='Xilogravura'
+              textCard='A Xilogravura é uma arte milenar que marca a identidade da cultura do Nordeste do Brasil e retrata o rico imaginário da cultura popular a partir de temáticas religiosas, políticas e até eróticas. A técnica consiste em talhar um pedaço de madeira usando facas e canivetes bem amolados.'
             />
           </div>
         </div>
