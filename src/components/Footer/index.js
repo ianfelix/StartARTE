@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookSquare, FaInstagram, FaPinterest } from 'react-icons/fa';
 import logo from '../../assets/images/logo-arte.png';
 import './styles.css';
 
@@ -13,7 +13,7 @@ const Footer = () => {
         <ul className='social-media'>
           <li>Facebook {<FaFacebookSquare />}</li>
           <li>Instagram {<FaInstagram />}</li>
-          <li>LinkedIn {<FaLinkedin />}</li>
+          <li>Pinterest {<FaPinterest />}</li>
         </ul>
       </div>
     </footer>
