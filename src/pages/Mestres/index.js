@@ -14,34 +14,34 @@ const Mestres = () => {
 
   if (URL_NAME === '/norte/mestres')
     return (
-      <section className='margin-body animeDown'>
-        <Head title='Mestres' description='Essa é a página dos Mestres' />
-        <div className='content card-content content-grid-pages'>
-          <div className='flex-card'>
+      <section className="margin-body animeDown">
+        <Head title="Mestres" description="Essa é a página dos Mestres" />
+        <div className="content card-content content-grid-pages">
+          <div className="flex-card">
             <Card
               img={mestreNorte1}
-              titleImg='Doutor da Borracha'
-              titleCard='DOUTOR DA BORRACHA'
-              textCard='O seringueiro José Rodrigues cresceu extraindo látex na cidade de Assis Brasil, no Acre, onde nasceu. Há doze anos, teve a ideia de confeccionar sapatos com a borracha que extraía da natureza e o negócio deu tão certo que o artesão passou a ser conhecido como ‘Dr. Borracha’ e viver da renda desse negócio.'
-              state='Rio+Branco'
+              titleImg="Doutor da Borracha"
+              titleCard="DOUTOR DA BORRACHA"
+              textCard="O seringueiro José Rodrigues cresceu extraindo látex na cidade de Assis Brasil, no Acre, onde nasceu. Há doze anos, teve a ideia de confeccionar sapatos com a borracha que extraía da natureza e o negócio deu tão certo que o artesão passou a ser conhecido como ‘Dr. Borracha’ e viver da renda desse negócio."
+              state="Rio+Branco"
             />
           </div>
-          <div className='flex-card'>
+          <div className="flex-card">
             <Card
               img={mestreNorte2}
-              titleImg='Levy Cardoso'
-              titleCard='Levy Cardoso'
-              textCard='Levy Cardoso, 48 anos, filho de Raimundo Cardoso, mestre ceramista que levou a arte em cerâmica da Amazônia para além das fronteiras do estado:o paraense chegou a ter trabalhos expostos até no Museu do Louvre, em Paris, e continua a inspirar a família mesmo oito anos após sua morte.'
-              state='Belem'
+              titleImg="Levy Cardoso"
+              titleCard="Levy Cardoso"
+              textCard="Levy Cardoso, 48 anos, filho de Raimundo Cardoso, mestre ceramista que levou a arte em cerâmica da Amazônia para além das fronteiras do estado, o paraense chegou a ter trabalhos expostos até no Museu do Louvre, em Paris, e continua a inspirar a família mesmo oito anos após sua morte."
+              state="Belem"
             />
           </div>
-          <div className='flex-card'>
+          <div className="flex-card">
             <Card
               img={mestreNorte3}
-              titleImg='José Guilherme Carneiro'
-              titleCard='José Guilherme Carneiro'
-              textCard='Um desses artistas da cultura popular do miriti, que ainda tem como se segurar de outra forma, é o artista plástico José Guilherme Carneiro. O atelier dele mistura peças de miriti com quadros, imagens de santos restauradas, cosméticos, perfumes, remédios naturais e algumas coisas de armarinho.'
-              state='Manaus'
+              titleImg="José Guilherme Carneiro"
+              titleCard="José Guilherme Carneiro"
+              textCard="Um desses artistas da cultura popular do miriti, que ainda tem como se segurar de outra forma, é o artista plástico José Guilherme Carneiro. O atelier dele mistura peças de miriti com quadros, imagens de santos restauradas, cosméticos, perfumes, remédios naturais e algumas coisas de armarinho."
+              state="Manaus"
             />
           </div>
         </div>
@@ -50,34 +50,34 @@ const Mestres = () => {
 
   if (URL_NAME === '/nordeste/mestres')
     return (
-      <section className='margin-body animeDown'>
-        <Head title='Mestres' description='Essa é a página dos Mestres' />
-        <div className='content card-content content-grid-pages'>
-          <div className='flex-card'>
+      <section className="margin-body animeDown">
+        <Head title="Mestres" description="Essa é a página dos Mestres" />
+        <div className="content card-content content-grid-pages">
+          <div className="flex-card">
             <Card
               img={mestreNordeste1}
-              titleImg='Zezinho de Tracunhaém'
-              titleCard='Zezinho de Tracunhaém'
-              textCard='O ceramista José Joaquim da Silva, o Zezinho de Tracunhaém, fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil, fonte de inspiração e mestre de dezenas de artesãos, tendo obra escultórica encontrada em acervos de igrejas, museus e coleções particulares.'
-              state='Tracunhaém'
+              titleImg="Zezinho de Tracunhaém"
+              titleCard="Zezinho de Tracunhaém"
+              textCard="O ceramista José Joaquim da Silva, o Zezinho de Tracunhaém, fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil, fonte de inspiração e mestre de dezenas de artesãos, tendo obra escultórica encontrada em acervos de igrejas, museus e coleções particulares."
+              state="Tracunhaém"
             />
           </div>
-          <div className='flex-card'>
+          <div className="flex-card">
             <Card
               img={mestreNordeste2}
-              titleImg='Abias'
-              titleCard='Abias'
-              textCard='entre galhos, raízes e troncos caídos, que José Abias da Silva alimenta a sua capacidade criadora, transformando e dando novos significados ao que para muitos seria apenas resíduo. Essa relação sustentável com o ambiente remonta à infância quando aproveitava cocos secos e gravetos para dar forma aos próprios brinquedos.'
-              state='Igarassu'
+              titleImg="Abias"
+              titleCard="Abias"
+              textCard="É entre galhos, raízes e troncos caídos, que José Abias da Silva alimenta a sua capacidade criadora, transformando e dando novos significados ao que para muitos seria apenas resíduo. Essa relação sustentável com o ambiente remonta à infância quando aproveitava cocos secos e gravetos para dar forma aos próprios brinquedos."
+              state="Igarassu"
             />
           </div>
-          <div className='flex-card'>
+          <div className="flex-card">
             <Card
               img={mestreNordeste3}
-              titleImg='Ademar'
-              titleCard='Ademar'
-              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso. “Vivi apenas da arte numa época muito difícil".'
-              state='Jupi'
+              titleImg="Ademar"
+              titleCard="Ademar"
+              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso: “Vivi apenas da arte numa época muito difícil".'
+              state="Jupi"
             />
           </div>
         </div>
