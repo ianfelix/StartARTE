@@ -5,7 +5,7 @@ import './styles.css';
 
 const ButtonCard = ({ textButton, to = '/' }) => {
   return (
-    <Link to={to}>
+    <Link to={to} className='align-btn'>
       {textButton && <button className='btn-card'>{textButton}</button>}
     </Link>
   );

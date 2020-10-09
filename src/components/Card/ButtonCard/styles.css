@@ -7,3 +7,8 @@
   cursor: pointer;
   margin-bottom: 1.5rem;
 }
+
+.align-btn {
+  display: flex;
+  justify-content: center;
+}

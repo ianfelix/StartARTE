@@ -20,8 +20,8 @@ const Mestres = () => {
           <div className='flex-card'>
             <Card
               img={mestreNorte1}
-              titleImg='Doutor da Borracha – ACRE'
-              titleCard='Doutor da Borracha – ACRE'
+              titleImg='Doutor da Borracha'
+              titleCard='DOUTOR DA BORRACHA'
               textCard='O seringueiro José Rodrigues cresceu extraindo látex na cidade de Assis Brasil, no Acre, onde nasceu. Há doze anos, teve a ideia de confeccionar sapatos com a borracha que extraía da natureza e o negócio deu tão certo que o artesão passou a ser conhecido como ‘Dr. Borracha’ e viver da renda desse negócio.'
               state='Rio+Branco'
             />
