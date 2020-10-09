@@ -7,7 +7,6 @@ import decoracaoNordeste2 from '../../assets/images/decoracaoNordeste2.jpg';
 import decoracaoNordeste3 from '../../assets/images/decoracaoNordeste3.jpg';
 import Card from '../../components/Card';
 import Head from '../../components/Head';
-import './styles.css';
 
 const Decoracao = () => {
   const URL_NAME = window.location.pathname;

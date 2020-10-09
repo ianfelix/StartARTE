@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 
-import './styles.css';
-
 const Head = (props) => {
   useEffect(() => {
     document.title = 'StartARTE | ' + props.title;

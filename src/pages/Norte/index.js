@@ -4,7 +4,6 @@ import arteIndigena from '../../assets/images/indigena.png';
 import mestre from '../../assets/images/mestre.jpg';
 import Card from '../../components/Card';
 import Head from '../../components/Head';
-import './styles.css';
 
 const Norte = () => {
   return (

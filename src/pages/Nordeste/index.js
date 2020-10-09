@@ -4,7 +4,6 @@ import arteSertaneja from '../../assets/images/sertanejo.jpg';
 import mestre from '../../assets/images/artesa.jpg';
 import decoracao from '../../assets/images/rendeira3.jpg';
 import Head from '../../components/Head';
-import './styles.css';
 
 const Nordeste = () => {
   return (
