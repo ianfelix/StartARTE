@@ -1,5 +1,7 @@
 .text-card {
   width: 300px;
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .title-card {
@@ -7,8 +9,9 @@
   margin: 10px 0;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 880px) {
   .text-card {
     width: auto;
+    text-align: center;
   }
 }

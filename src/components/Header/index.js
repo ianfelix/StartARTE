@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/images/logo-arte.png';
 import './styles.css';
 
 const Header = () => {
   return (
     <header>
-      <ul className='header'>
-        <li className='norte-nav-link'>
+      <ul className='header-flex'>
+        <li>
           <NavLink
             className='norte-nav-link'
             to='/norte'
@@ -14,12 +15,12 @@ const Header = () => {
             Norte
           </NavLink>
         </li>
-        <li>
-          <NavLink className='logo' to='/' end>
-            Logo
+        <li className='logo-item'>
+          <NavLink to='/' end>
+            <img src={logo} className='logo' alt='Logo da página' />
           </NavLink>
         </li>
-        <li className='nordeste-nav-link'>
+        <li>
           <NavLink
             className='nordeste-nav-link'
             to='/nordeste'
