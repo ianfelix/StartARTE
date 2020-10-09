@@ -31,9 +31,8 @@ const Mestres = () => {
               img={mestreNorte2}
               titleImg='Levy Cardoso'
               titleCard='Levy Cardoso'
-              textCard='Levy Cardoso, 48 anos, filho de Raimundo Cardoso, mestre ceramista que levou a arte em cerâmica da Amazônia para além das fronteiras do estado:o paraense chegou a ter trabalhos expostos até no Museu do Louvre, em Paris, e continua a inspirar a família mesmo oito anos após sua morte, em 2006.'
+              textCard='Levy Cardoso, 48 anos, filho de Raimundo Cardoso, mestre ceramista que levou a arte em cerâmica da Amazônia para além das fronteiras do estado:o paraense chegou a ter trabalhos expostos até no Museu do Louvre, em Paris, e continua a inspirar a família mesmo oito anos após sua morte.'
               state='Belem'
-              textButton='Ver mapa'
             />
           </div>
           <div className='flex-card'>
@@ -41,7 +40,7 @@ const Mestres = () => {
               img={mestreNorte3}
               titleImg='José Guilherme Carneiro'
               titleCard='José Guilherme Carneiro'
-              textCard='Um desses artistas da cultura popular do miriti, que ainda tem como se segurar de outra forma, é o artista plástico José Guilherme Carneiro. O atelier dele mistura peças de miriti com quadros, imagens de santos restauradas, cosméticos, perfumes, remédios naturais e algumas coisas de armarinho. A cada ano, ele produz até 1,5 mil peças para vender no Círio. Neste ano, não vai produzir nem uma novidade. Até porque sobrou coisa do Círio de 2019.'
+              textCard='Um desses artistas da cultura popular do miriti, que ainda tem como se segurar de outra forma, é o artista plástico José Guilherme Carneiro. O atelier dele mistura peças de miriti com quadros, imagens de santos restauradas, cosméticos, perfumes, remédios naturais e algumas coisas de armarinho.'
               state='Manaus'
             />
           </div>
@@ -59,7 +58,8 @@ const Mestres = () => {
               img={mestreNordeste1}
               titleImg='Zezinho de Tracunhaém'
               titleCard='Zezinho de Tracunhaém'
-              textCard='O ceramista José Joaquim da Silva, o Zezinho de Tracunhaém, fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil, fonte de inspiração e mestre de dezenas de artesãos, tendo obra escultórica encontrada em acervos de igrejas, museus e coleções particulares, como o Museu de Arte Contemporânea (PE), Museu Casa do Pontal (RJ) e Palácio do Planalto. '
+              textCard='O ceramista José Joaquim da Silva, o Zezinho de Tracunhaém, fez da arte santeira a sua expressão maior, tornando-se um dos mais importantes artistas populares do Brasil, fonte de inspiração e mestre de dezenas de artesãos, tendo obra escultórica encontrada em acervos de igrejas, museus e coleções particulares.'
+              state='Tracunhaém'
             />
           </div>
           <div className='flex-card'>
@@ -68,6 +68,7 @@ const Mestres = () => {
               titleImg='Abias'
               titleCard='Abias'
               textCard='entre galhos, raízes e troncos caídos, que José Abias da Silva alimenta a sua capacidade criadora, transformando e dando novos significados ao que para muitos seria apenas resíduo. Essa relação sustentável com o ambiente remonta à infância quando aproveitava cocos secos e gravetos para dar forma aos próprios brinquedos.'
+              state='Igarassu'
             />
           </div>
           <div className='flex-card'>
@@ -75,7 +76,8 @@ const Mestres = () => {
               img={mestreNordeste3}
               titleImg='Ademar'
               titleCard='Ademar'
-              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso.  '
+              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso. “Vivi apenas da arte numa época muito difícil".'
+              state='Jupi'
             />
           </div>
         </div>
