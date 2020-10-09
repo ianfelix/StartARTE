@@ -31,8 +31,6 @@ footer {
   }
 
   .content-flex {
-    margin: 0 auto;
-    width: 450px;
     flex-direction: column;
   }
 
