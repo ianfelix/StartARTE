@@ -1,10 +1,11 @@
 import React from 'react';
+import Card from '../../components/Card';
+import Head from '../../components/Head';
 import arteIndigena from '../../assets/images/indigena.png';
 import arteIndigena1 from '../../assets/images/arteIndigena1.jpg';
 import arteIndigena2 from '../../assets/images/arteIndigena2.jpg';
 import arteIndigena3 from '../../assets/images/arteIndigena3.jpg';
-import Card from '../../components/Card';
-import Head from '../../components/Head';
+// impirt arteSertaneja1 from '../../assets/images/'
 import './styles.css';
 
 const Artes = () => {
