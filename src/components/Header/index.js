@@ -12,7 +12,7 @@ const Header = () => {
             className='norte-nav-link'
             to='/norte'
             activeClassName='activeLink'>
-            Norte
+            NORTE
           </NavLink>
         </li>
         <li className='logo-item'>
@@ -25,7 +25,7 @@ const Header = () => {
             className='nordeste-nav-link'
             to='/nordeste'
             activeClassName='activeLink'>
-            Nordeste
+            NORDESTE
           </NavLink>
         </li>
       </ul>

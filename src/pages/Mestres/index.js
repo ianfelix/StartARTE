@@ -7,7 +7,6 @@ import mestreNordeste2 from '../../assets/images/mestreNordeste2.jpg';
 import mestreNordeste3 from '../../assets/images/mestreNordeste3.jpg';
 import Card from '../../components/Card';
 import Head from '../../components/Head';
-import './styles.css';
 
 const Mestres = () => {
   const URL_NAME = window.location.pathname;
@@ -20,8 +19,8 @@ const Mestres = () => {
           <div className='flex-card'>
             <Card
               img={mestreNorte1}
-              titleImg='Doutor da Borracha – ACRE'
-              titleCard='Doutor da Borracha – ACRE'
+              titleImg='Doutor da Borracha'
+              titleCard='DOUTOR DA BORRACHA'
               textCard='O seringueiro José Rodrigues cresceu extraindo látex na cidade de Assis Brasil, no Acre, onde nasceu. Há doze anos, teve a ideia de confeccionar sapatos com a borracha que extraía da natureza e o negócio deu tão certo que o artesão passou a ser conhecido como ‘Dr. Borracha’ e viver da renda desse negócio.'
               state='Rio+Branco'
             />
@@ -67,7 +66,7 @@ const Mestres = () => {
               img={mestreNordeste2}
               titleImg='Abias'
               titleCard='Abias'
-              textCard='entre galhos, raízes e troncos caídos, que José Abias da Silva alimenta a sua capacidade criadora, transformando e dando novos significados ao que para muitos seria apenas resíduo. Essa relação sustentável com o ambiente remonta à infância quando aproveitava cocos secos e gravetos para dar forma aos próprios brinquedos.'
+              textCard='entre raízes e troncos caídos, que José Abias da Silva alimenta a sua capacidade criadora, transformando e dando novos significados ao que para muitos seria apenas resíduo. Essa relação sustentável com o ambiente remonta à infância quando aproveitava cocos secos e gravetos para dar forma aos próprios brinquedos.'
               state='Igarassu'
             />
           </div>
@@ -76,7 +75,7 @@ const Mestres = () => {
               img={mestreNordeste3}
               titleImg='Ademar'
               titleCard='Ademar'
-              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso. “Vivi apenas da arte numa época muito difícil".'
+              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso. “Vivi apenas da arte".'
               state='Jupi'
             />
           </div>

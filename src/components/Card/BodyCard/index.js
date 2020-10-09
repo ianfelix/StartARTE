@@ -5,7 +5,7 @@ import './styles.css';
 const BodyCard = ({ titleCard, textCard }) => {
   return (
     <>
-      <p className='title-card'>{titleCard}</p>
+      <p className='title-card align-center'>{titleCard}</p>
       <p className='text-card'>{textCard}</p>
     </>
   );

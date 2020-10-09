@@ -1,6 +1,6 @@
 header {
   padding: 20px;
-  border-top: 3.5px solid #dbc2a5;
+  border-top: 5.5px solid #dbc2a5;
   border-bottom: 1px solid #e4dad1;
 }
 
@@ -21,16 +21,15 @@ header {
 
 .norte-nav-link,
 .nordeste-nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 header ul li a {
-  padding: 25px;
+  padding: 34px;
 }
 
 .logo {
-  font-size: 1rem;
-  width: 250px;
+  width: 400px;
 }
 
 a {
@@ -39,15 +38,19 @@ a {
 }
 
 .activeLink {
-  border-top: 4px solid #ce132c;
+  border-top: 5px solid #ce132c;
 }
 
-@media (max-width: 502px) {
+@media (max-width: 880px) {
   .header-flex {
     flex-direction: column;
   }
   .logo-item {
     order: -1;
+  }
+
+  .logo {
+    width: 100%;
   }
 
   header ul li {
