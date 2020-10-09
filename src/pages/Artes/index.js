@@ -8,8 +8,6 @@ import arteSertaneja1 from '../../assets/images/arteSertaneja1.jpg';
 import arteSertaneja2 from '../../assets/images/arteSertaneja2.jpg';
 import arteSertaneja3 from '../../assets/images/arteSertaneja3.jpg';
 
-import './styles.css';
-
 const Artes = () => {
   const URL_NAME = window.location.pathname;
 

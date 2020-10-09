@@ -4,7 +4,6 @@ import Head from '../../components/Head';
 import Sobre from '../../components/Sobre';
 import imgNorte from '../../assets/images/img-norte-removebg-preview.png';
 import ImgNordeste from '../../assets/images/img-nordeste-removebg-preview.png';
-import './styles.css';
 
 const Home = () => {
   return (

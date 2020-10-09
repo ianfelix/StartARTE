@@ -7,7 +7,6 @@ import mestreNordeste2 from '../../assets/images/mestreNordeste2.jpg';
 import mestreNordeste3 from '../../assets/images/mestreNordeste3.jpg';
 import Card from '../../components/Card';
 import Head from '../../components/Head';
-import './styles.css';
 
 const Mestres = () => {
   const URL_NAME = window.location.pathname;
@@ -76,7 +75,7 @@ const Mestres = () => {
               img={mestreNordeste3}
               titleImg="Ademar"
               titleCard="Ademar"
-              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso: “Vivi apenas da arte numa época muito difícil".'
+              textCard='Especialista na arte sacra, Mestre Ademar aprendeu o ofício com o sogro, no ano de 1973, em São Paulo. Antes disso, ele não teve nenhum contato com a madeira, usada hoje como principal matéria-prima dos seus trabalhos. Segundo Ademar Inácio dos Santos, sua história é fruto de mero acaso. “Vivi apenas da arte".'
               state="Jupi"
             />
           </div>
